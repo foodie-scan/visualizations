@@ -3,9 +3,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="stylesheet" href="css/gauge.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-<div class="center-screen" id="caloriegauge" style="width:400px; height:320px"></div>
+<div class="center-screen">
+  <div id="caloriegauge" style="width:400px; height:320px"></div>
+  <graph style="width: 800px">
+    <canvas id="line-graph"></canvas>
+  </graph>
+</div>
 <!-- Scripts-->
 <script src="gauge-meter/raphael-2.1.4.min.js"></script>
 <script src="gauge-meter/justgage.js"></script>
 <script src="scripts/gauge-config.js"></script>
+<script src="scripts/line-graph.js"></script>
