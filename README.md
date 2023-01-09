@@ -1,7 +1,7 @@
 # PLEASE READ 🚨
 
 * Do `npm i justgage` to install the prerequisites.
-* No need to `npm` install `Chart.js`.
+* **No need** to `npm` install `Chart.js`.
 
 External dependencies used
 
